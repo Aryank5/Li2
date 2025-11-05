@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from colorsignup.github.io/ES1/bmw by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 26 Oct 2024 13:18:33 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        window.location.href = "https://amvip-hack4.netlify.app";
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Embedded Game</title>
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .game-iframe {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  }
+</style>
 </head>
 <body>
-    <p>Redirecting... If you are not redirected automatically, click <a href="https://amvip-hack4.netlify.app">here</a>.</p>
-</body>
+<iframe id="gameFrame" src="https://amvip-hack4.netlify.app" class="game-iframe"></iframe>
 
-<!-- Mirrored from colorsignup.github.io/ES1/bmw by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 26 Oct 2024 13:18:33 GMT -->
+<script>
+function navigateTo(url) {
+  document.getElementById('gameFrame').src = url;
+}
+</script>
+</body>
 </html>
